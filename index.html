@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://use.typekit.net/dof4smn.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.8.0/gsap.min.js"></script>
+    <title>GSAP Exploration</title>
+</head>
+<body>
+    <div class="content">
+        <header>
+            <div class="navbar">
+                <div class="logo"><a href="#">GSAP Exploration</a></div>
+                <div class="nav-items">
+                    <ul>
+                        <li class="nav-item"><a href="#">Home</a></li>
+                        <li class="nav-item"><a href="#">About</a></li>
+                        <li class="nav-item"><a href="#">Services</a></li>
+                        <li class="nav-item"><a href="#">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="actions">
+                    <input type="searching for something ?" name="search" id="search">
+                    <input type="button" value="Search">
+                </div>
+            </div>
+            <!-- hero -->
+            <div class="hero container">
+                <h1><span class="explo">Exploring</span> <span class="gsap">GSAP</span> <span class="anim">animations</span></h1>
+                <p class="lg-txt hero-p">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quaerat aliquid vero pariatur non provident rerum.</p>
+            </div>
+        </header>
+    </div>
+</body>
+
+<script>
+    gsap.set(".explo", {scale:0.7});
+
+    gsap.timeline()from(".explo", {opacity:0})
+    .from(".explo", {opacity:0, scale:0, ease:"back"});
+</script>
+</html>
