@@ -1,39 +1,31 @@
 gsap.from(".navbar",{
     duration:1,
     y : '-100%',
-    ease:"power"
+    ease:"bounce"
 });
 
 gsap.from(".logo", {
     duration : 2,
     opacity : 0,
-    delay : 1
+    delay : .5
 });
 
 gsap.from(".nav-item", {
     duration : 2,
     opacity : 0,
-    delay : 1.5
+    delay : .6
 });
 
 gsap.from(".actions", {
     duration:2,
     opacity:0,
-    delay:2
+    delay:.7
 });
 
-gsap.from("h1", {
-    duration: 1,
-    y : "-100%",
+gsap.from(".hero", {
+    duration:1,
     opacity:0,
-    ease:"power1",
-    delay:2
-});
-
-gsap.from(".hero-p", {
-    duration: 1,
-    y : "100%",
-    opacity:0,
-    ease:"power1",
-    delay:2.5
+    y:"-25%",
+    delay:.8,
+    ease:"bounce"
 });

@@ -43,6 +43,7 @@ h1{
     font-weight: 900;
     font-style: normal;
     font-size: 5rem;
+    line-height:1.2em;
     text-align: center;
 }
 .lg-txt{
@@ -50,6 +51,7 @@ h1{
     font-weight: 400;
     font-style: normal;
     font-size: 1.8rem;
+    line-height: 1.2em;
     text-align: center;
 }
 a{
@@ -63,9 +65,11 @@ body{
     font-family: termina,sans-serif;
     font-weight: 400;
     font-style: normal;
+    font-size:1.2rem;
+    line-height: 2em;
 }
 .container{
-    width:1440px;
+    max-width:80%;
     margin:0 auto;
 }
 
@@ -107,4 +111,21 @@ header{
     flex-direction: column;
     align-items: center;
     justify-content: center;
+}
+.hero-xl-btn{
+    margin-top: 56px;
+    font-size: 1.2rem;
+    background-color: rgba(0,0,255,1);
+    color:rgba(255,255,255,1);
+    padding:1rem 5rem;
+    border-radius: 40px;
+    transition: all .4s;
+}
+.hero-xl-btn:hover{
+    background-color: rgba(255,255,255,1);
+    color:rgba(0,0,255,1);
+}
+
+.intro{
+    padding:96px 32px;
 }
