@@ -29,3 +29,19 @@ gsap.from(".hero", {
     delay:.8,
     ease:"bounce"
 });
+
+gsap.from(".intro",{
+    duration:1,
+    y : '-100%',
+    ease:"bounce"
+});
+
+gsap.from(".presentation",{
+    duration:1,
+    y : '-100%',
+    ease:"bounce"
+});
+
+// Scroll reveal
+ScrollReveal().reveal('.intro');
+ScrollReveal().reveal('.presentation');
