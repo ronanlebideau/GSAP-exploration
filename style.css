@@ -51,15 +51,16 @@ h1{
     font-family: termina,sans-serif;
     font-weight: 900;
     font-style: normal;
-    font-size: 5rem;
+    font-size: 5vw;
     line-height:1.2em;
     text-align: center;
+    margin-bottom:5vh;
 }
 .lg-txt{
     font-family: termina,sans-serif;
     font-weight: 400;
     font-style: normal;
-    font-size: 1.8rem;
+    font-size: 1.8vw;
     line-height: 1.2em;
     text-align: center;
 }
@@ -91,6 +92,7 @@ header{
     font-weight: 900;
     letter-spacing: 5px;
     text-decoration: none;
+    font-size: 1.4vw;
 }
 .navbar{
     height:120px;
@@ -110,6 +112,7 @@ header{
 .nav-items a{
     opacity: 100%;
     transition: all .4s;
+    font-size: 1vw;
 }
 .nav-items a:hover{
     opacity: 40%;
@@ -143,6 +146,7 @@ section{
     display:flex;
     flex-direction: column;
     align-items: flex-start;
+    height:20vh;
 }
 .intro p{
     max-width:70%;

@@ -30,18 +30,6 @@ gsap.from(".hero", {
     ease:"bounce"
 });
 
-gsap.from(".intro",{
-    duration:1,
-    y : '-100%',
-    ease:"bounce"
-});
-
-gsap.from(".presentation",{
-    duration:1,
-    y : '-100%',
-    ease:"bounce"
-});
-
 // Scroll reveal
-ScrollReveal().reveal('.intro');
-ScrollReveal().reveal('.presentation');
+ScrollReveal().reveal('.intro', { duration: 1000 });
+ScrollReveal().reveal('.presentation', { duration: 1000 });
